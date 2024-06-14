@@ -1,25 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import './ThankYou.css'; 
 
-const Home = () => {
+const ThankYou = () => {
   return (
-    <div className="home-container">
+    <div className="thank-you-container">
       <div className="header">
         <img src="https://upload.wikimedia.org/wikipedia/en/4/47/VNRVJIETLogo.png" alt="Logo" className="logo" />
         <h1>VALLURUPALLI NAGESHWARA RAO VIGNANA JYOTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1>
         <p>Pragati Nagar, Nizampet(S.O), Hyderabad-500 090, TS, India.</p>
-        <h2>Home</h2>
       </div>
       <div className="content">
-        <h3>Funded Projects</h3>
-        <ul>
-          <li><Link to="/project-registration">Project Registration</Link></li>
-          <li><Link to="/funded-projects-report">Projects Report</Link></li>
-        </ul>
+        <h2>Thank you for registering!</h2>
+        <p>You can find the status of your projects in the <Link to="/funded-projects-report2">Projects Report</Link></p>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default ThankYou;

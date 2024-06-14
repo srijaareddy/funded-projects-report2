@@ -4,8 +4,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import Modal from 'react-modal';
 import './FundedProjectsTable.css';
 
-Modal.setAppElement('#root');  // Important for accessibility
-
+Modal.setAppElement('#root');
 const FundedProjectsTable = () => {
   const [projects, setProjects] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -160,10 +159,10 @@ const FundedProjectsTable = () => {
             className="form-check-input"
             id="DurationofProject"
             name="duration"
-            checked={filterOptions.yearOfSanction}
+            checked={filterOptions.DurationofProject}
             onChange={handleFilterChange}
           />
-          <label className="form-check-label" htmlFor="yearOfSanction">Duration of Project</label>
+          <label className="form-check-label" htmlFor="DurationofProject">Duration of Project</label>
         </div>
         <div>
           <label>From Date: </label>
