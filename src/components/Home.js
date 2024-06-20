@@ -14,8 +14,8 @@ const Home = () => {
       <div className="content">
         <h3>Funded Projects</h3>
         <ul>
-          <li><Link to="/project-registration">Project Registration</Link></li>
-          <li><Link to="/funded-projects-report">Projects Report</Link></li>
+          <li><Link to="/ProjectRegistration">Project Registration</Link></li>
+          <li><Link to="/FundedProjectsTable">Projects Report</Link></li>
         </ul>
       </div>
     </div>
