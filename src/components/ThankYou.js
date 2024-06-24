@@ -13,6 +13,7 @@ const ThankYou = () => {
       <div className="content">
         <h2>Thank you for registering!</h2>
         <p>You can find the status of your projects in the <Link to="/FundedProjectsTable">Projects Report</Link></p>
+        <p>Go back to <Link to="/Home">Home</Link></p>
       </div>
     </div>
   );

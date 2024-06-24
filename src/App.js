@@ -31,14 +31,15 @@ import ThankYou from './components/ThankYou';
  
 const App = () => {
   return (
-<Router>
-<Routes>
-<Route path="/" element={<Home />} />
-<Route path="/FundedProjectsTable" element={<FundedProjectsTable />} />
-<Route path="/ProjectRegistration" element={<ProjectRegistration />} />
-<Route path="/ThankYou" element={<ThankYou />} />
-</Routes>
-</Router>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/FundedProjectsTable" element={<FundedProjectsTable />} />
+        <Route path="/ProjectRegistration" element={<ProjectRegistration />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/ThankYou" element={<ThankYou />} />
+      </Routes>
+    </Router>
   );
 };
  
